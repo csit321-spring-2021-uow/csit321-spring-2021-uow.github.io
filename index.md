@@ -1,3 +1,28 @@
+<style>
+    .navigation {
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        
+    }
+    .navigation .icon,.navigation .text {
+        float: left;
+    }
+    .navigation .text {
+        width: 100px;
+
+    }
+    .navigation .text:hover {
+        border-bottom:4px solid red;
+    }
+</style> 
+<div class="navigation">
+    <div class="icon"></div>
+    <div class="text">Home</div>
+    <div class="text">Project</div>
+</div>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/csit321-spring-2021-uow/csit321-spring-2021-uow.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
